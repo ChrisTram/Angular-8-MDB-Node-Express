@@ -15,12 +15,13 @@ import { ReactiveFormsModule } from '@angular/forms';
     ProductAddComponent,
     ProductGetComponent,
     ProductEditComponent,
-    ReactiveFormsModule
+    
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    SlimLoadingBarModule
+    SlimLoadingBarModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
